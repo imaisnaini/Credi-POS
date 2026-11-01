@@ -1,0 +1,6 @@
+{
+  "name": "CrediPOS — POS & Credit Management",
+  "description": "Point of sale and customer credit management system for retail businesses with debt tracking, inventory, and reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
