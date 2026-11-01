@@ -28,6 +28,14 @@
   font-variant-numeric: tabular-nums;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* Print styles for receipt generation */
 @media print {
   body * {

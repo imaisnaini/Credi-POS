@@ -132,7 +132,7 @@ function MainApp() {
         />
 
         {/* Dynamic Page Views */}
-        <main className="flex-1 overflow-y-auto bg-[#F9FAFB]">
+        <main className={`flex-1 min-h-0 min-w-0 bg-[#F9FAFB] ${currentTab === 'pos' ? 'flex flex-col overflow-hidden' : 'overflow-y-auto'}`}>
           {currentTab === 'pos' && <Pos />}
           {currentTab === 'dashboard' && (
             <Dashboard
